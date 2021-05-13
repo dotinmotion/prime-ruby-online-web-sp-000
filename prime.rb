@@ -1,3 +1,4 @@
 def prime?(num)
-  n=
+  n=2
+  while n < num
 end
