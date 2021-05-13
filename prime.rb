@@ -5,9 +5,9 @@ def prime?(num)
   end
   while n < num
     if num % num == 0
-      return true
-    else 
       return false
+    else 
+      return true
     n += 1
     end
   end
