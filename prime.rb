@@ -1,10 +1,11 @@
+
 def prime?(num)
-  if num <= 1
+  if num <= 1 
     return false
-  elsif num == 2
+  elsif num == 2 
     return true
-  elsif (2..Math.sqrt(num)).each { |i| return false if num % i == 0}
   else
-    true
+    (2..Math.sqrt(num)).each { |i| return false if num % i == 0}
   end
+  true
 end
