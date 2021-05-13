@@ -1,4 +1,4 @@
 def prime?(num)
-  if num.
+  if num.include?
   
 end
