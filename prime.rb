@@ -2,6 +2,7 @@ def prime?(num)
   n=1
   if num <= 1
     return false
+  end
   if num == 2
     return true
   end
